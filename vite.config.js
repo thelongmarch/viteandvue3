@@ -24,7 +24,11 @@ export default defineConfig({
       {
         find: 'views',
         replacement: resolve(__dirname, 'src/views')
-      }
+      },
+      {
+        find: 'styles',
+        replacement: resolve(__dirname, 'src/styles')
+      },
 
     ]
   },  
